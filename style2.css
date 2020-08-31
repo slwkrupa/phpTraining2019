@@ -1,0 +1,99 @@
+
+label{
+    display: block;
+    float: left;
+    width: 100px;
+    font-family: Helvetica;
+    font-size: 0.85em;
+    font-variant: small-caps;
+}
+input{
+    display: block;
+    font-size: 1em;
+    padding: 6px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"]{
+    display: block;
+    font-size: 1em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+input[type="text"]:focus{
+    background-color: #f5f5f0;
+    outline: none;
+}
+select{
+    display: block;
+    font-size: 1em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    display: block;
+    border: none;
+    outline: none;
+}
+.button{
+    margin: 0px 10px 10px 0px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    background-color: #cc0000;
+    border: 0px;
+    position: relative;
+    top:10px;
+    left: 250px;
+    width: 100px;
+    color: #ffffff;
+    border-bottom: 1px double #660000;
+    border-bottom: 1px double #660000;
+    border-bottom: 1px double #ff0033;
+    border-bottom: 1px double #ff0033;
+}
+.user_form{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #e0ebeb;
+}
+p{
+    font-size: 0.75em;
+    text-align: justify;
+}
+input[type="checkbox"]{
+    height: 18px;
+    width: 18px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+img{
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+p.hint{
+    text-align: center;
+    position: relative;
+    display: block;
+    bottom: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: orange;
+    border: 0.5px solid rgb(189, 139, 46);
+    color: white;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+img:hover + p.hint{
+    visibility: visible;
+}
